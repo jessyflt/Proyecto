@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Principal.master" AutoEventWireup="false" CodeFile="AdminUsuario.aspx.vb" Inherits="Administracion_AdminUsuario" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Formularios.master" AutoEventWireup="false" CodeFile="AdminUsuario.aspx.vb" Inherits="Administracion_AdminUsuario" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
