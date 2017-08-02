@@ -33,7 +33,7 @@
                         <asp:BoundField DataField="usridusuario" HeaderText="User name" SortExpression="usridusuario" />
                         <asp:BoundField DataField="usrclave" HeaderText="Password" SortExpression="usrclave" />
                         <asp:CommandField ButtonType="Button" ShowEditButton="True" />
-                        <asp:CommandField ButtonType="Button" ShowDeleteButton="True" />
+                        <asp:CommandField ButtonType="Button" ShowDeleteButton="True"  />
                     </Columns>
                     <FooterStyle BackColor="White" ForeColor="#000066" />
                     <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
