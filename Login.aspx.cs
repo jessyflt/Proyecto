@@ -64,12 +64,12 @@ public partial class Login : System.Web.UI.Page
         int tipo = Convert.ToInt32(Session["idPerfil"].ToString());
         if (tipo == 1)
         {
-            Response.Redirect("./Administracion/AdminUsuario.aspx");
+            Response.Redirect("./Administracion/Default.aspx");
         }
         else
         {
             //Session["tiempo"] = 120;
-            Response.Redirect("./Default.aspx");
+            Response.Redirect("./Administracion/Comprador.aspx");
         }
     }
 }
