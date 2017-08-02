@@ -38,8 +38,7 @@
 							<label for="name" class="cols-sm-2 control-label">Código</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="codigo"  placeholder="Digite o nome do Professor."/>
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>&nbsp;<asp:TextBox ID="txtcodigo" runat="server"></asp:TextBox>
 								</div>
 							</div>
 						</div>
@@ -48,8 +47,7 @@
 							<label for="name" class="cols-sm-2 control-label">Nombre</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Digite el nombre del Vendedor."/>
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>&nbsp;<asp:TextBox ID="txtname" runat="server"></asp:TextBox>
 								</div>
 							</div>
 						</div>
@@ -58,8 +56,7 @@
 							<label for="username" class="cols-sm-2 control-label">Apellido</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="username" id="username"  placeholder="Apellido."/>
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>&nbsp;<asp:TextBox ID="txtapellido" runat="server"></asp:TextBox>
 								</div>
 							</div>
 						</div>

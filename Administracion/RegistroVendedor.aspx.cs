@@ -19,7 +19,7 @@ public partial class Administracion_RegistroVendedor : System.Web.UI.Page
         String source = @"Data Source = WORK; Initial Catalog = Inmobiliaria; Integrated Security = True"; 
 SqlConnection conexion = new SqlConnection(source);
         conexion.Open();
-        SqlCommand query = new SqlCommand("Insert into VENDEDOR(codVend, nombreVend, apellidoVend) Values('" +codigo.text + "'',''" + name.text +"','"+ username.text + "'');", conexion);
+        SqlCommand query = new SqlCommand("Insert into VENDEDOR(codVend, nombreVend, apellidoVend) Values('" +txtcodigo.Text + "'',''" + txtname.Text +"','"+ txtapellido.Text+ "'');", conexion);
         query.ExecuteNonQuery();
         conexion.Close();
        
