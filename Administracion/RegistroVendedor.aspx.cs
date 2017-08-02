@@ -22,8 +22,7 @@ SqlConnection conexion = new SqlConnection(source);
         SqlCommand query = new SqlCommand("Insert into VENDEDOR(codVend, nombreVend, apellidoVend) Values('" +txtcodigo.Text + "'',''" + txtname.Text +"','"+ txtapellido.Text+ "'');", conexion);
         query.ExecuteNonQuery();
         conexion.Close();
-       
-       
+             
     }
     
 }
