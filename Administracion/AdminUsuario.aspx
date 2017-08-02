@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Formularios.master" AutoEventWireup="true" CodeFile="AdminUsuario.aspx.cs" Inherits="Administracion_AdminUsuario" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="../Master/Formulario.master" AutoEventWireup="true" CodeFile="AdminUsuario.aspx.cs" Inherits="Administracion_AdminUsuario" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
