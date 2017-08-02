@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
 
-    Vendedor
+     <h1> <center>Personal de Ventas </center></h1>
 
 <br />
 <br />
