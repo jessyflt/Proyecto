@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+using System.Data;
+using System.Configuration;
 
 public partial class Administracion_RegistroVendedor : System.Web.UI.Page
 {
@@ -14,15 +16,42 @@ public partial class Administracion_RegistroVendedor : System.Web.UI.Page
     {
         
     }
-    protected void btnGuardar_Click(object sender, EventArgs e)
-    {
-        String source = @"Data Source = WORK; Initial Catalog = Inmobiliaria; Integrated Security = True"; 
-SqlConnection conexion = new SqlConnection(source);
-        conexion.Open();
-        SqlCommand query = new SqlCommand("Insert into VENDEDOR(codVend, nombreVend, apellidoVend) Values('" +txtcodigo.Text + "'',''" + txtname.Text +"','"+ txtapellido.Text+ "'');", conexion);
-        query.ExecuteNonQuery();
-        conexion.Close();
-             
-    }
     
+
+
+    protected void btnregistro_Click(object sender, EventArgs e)
+    {
+        try
+        {
+
+            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["InmobiliariaConnectionString"].ToString()))
+            {
+                conn.Open();
+                string query = @"insert into VENDEDOR(codVend, nombreVend, apellidoVend) 
+                            values (@codVend, @nombreVend, @apellidoVend)";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.CommandType = CommandType.Text;
+                cmd.Parameters.AddWithValue("@codVend", txtcodigo.Text);
+                cmd.Parameters.AddWithValue("@nombreVend", txtname);
+                cmd.Parameters.AddWithValue("@apellidoVend", txtapellido.Text);
+               cmd.ExecuteNonQuery();
+                cmd.Connection.Close();
+            }
+
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
+    }
+
+
+
+
+
+
+
+   
 }

@@ -8,7 +8,7 @@
 </p>
 <p>
 &nbsp;&nbsp;&nbsp; Código:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+    <asp:TextBox ID="txtCod" runat="server"></asp:TextBox>
 </p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp; Cédula:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

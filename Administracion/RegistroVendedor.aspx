@@ -62,7 +62,9 @@
 						</div>
 												
 						<div class="form-group ">
-							<button type="button" ID="btnGuardar" runat="server" class="btn btn-primary btn-lg btn-block login-button" OnClick="btnGuardar_Click" >Registrar</button>
+							
+                                <asp:Button ID="btnregistro" runat="server" OnClick="btnregistro_Click" Text="Registrar" />
+                            
 						</div>
 					
 					</form>
