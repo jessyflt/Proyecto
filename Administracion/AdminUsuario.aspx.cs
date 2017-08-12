@@ -86,7 +86,8 @@ public partial class Administracion_AdminUsuario : System.Web.UI.Page
             cmd.ExecuteNonQuery();
 
             EnviaMail();
-           
+            Response.Redirect("ListarUsuario.aspx");
+
         }
 
 
