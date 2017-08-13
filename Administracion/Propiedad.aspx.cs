@@ -16,4 +16,9 @@ public partial class Administracion_Propiedad : System.Web.UI.Page
     {
 
     }
+
+    protected void txtNDue_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Dueno.aspx");
+    }
 }

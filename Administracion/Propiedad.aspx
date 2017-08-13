@@ -12,7 +12,7 @@
                 <asp:Label ID="Label1" runat="server" Text="Codigo:" ></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtCodigoPropiedad" CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:TextBox ID="txtCodigoPropiedad" CssClass="form-control" runat="server" ></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -28,7 +28,7 @@
                 <asp:Label ID="Label3" runat="server" Text="Estado:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtEstado" CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:TextBox ID="txtEstado" CssClass="form-control" runat="server" ></asp:TextBox>
             </td>
         </tr>
          <tr>
@@ -36,7 +36,12 @@
                 <asp:Label ID="Label8" runat="server" Text="Dueño:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtDue" CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:DropDownList ID="listDue" CssClass="form-control" runat="server" DataSourceID="SqlConDue" DataTextField="Nombre" DataValueField="codDue" >
+                </asp:DropDownList>
+                <br />
+                <asp:Button ID="txtNDue" runat="server" Text="Agregar Dueño" CssClass ="btn btn-primary" OnClick="txtNDue_Click" />
+                <asp:SqlDataSource ID="SqlConDue" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [codDue], CONCAT([nombreDue], ' ' ,[apellidoDue]) as Nombre
+FROM [Inmobiliaria].[dbo].[DUEÑO]"></asp:SqlDataSource>
             </td>
         </tr>
         <tr>
@@ -44,7 +49,7 @@
                 <asp:Label ID="Label4" runat="server" Text="Tipo:" ></asp:Label>
             </td>
             <td>
-                    <asp:DropDownList ID="tipoP"  CssClass="form-control" runat="server" Width="241px">
+                    <asp:DropDownList ID="tipoP"  CssClass="form-control" runat="server" >
                         <asp:ListItem Value="Casa">Casa</asp:ListItem>
                         <asp:ListItem Value="Terreno">Terreno</asp:ListItem>
                         <asp:ListItem Value="Departamento">Departamento</asp:ListItem>
@@ -56,7 +61,7 @@
                 <asp:Label ID="Label5" runat="server" Text="Direccion:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtDireccionT" CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:TextBox ID="txtDireccionT" CssClass="form-control" runat="server" ></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -64,7 +69,7 @@
                 <asp:Label ID="Label6" runat="server" Text="Sector:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtSector" CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:TextBox ID="txtSector" CssClass="form-control" runat="server" ></asp:TextBox>
             </td>
         </tr>
          <tr>
@@ -72,7 +77,7 @@
                 <asp:Label ID="Label7" runat="server" Text="Ciudad:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtCiudad"  CssClass="form-control" runat="server" Width="241px"></asp:TextBox>
+                <asp:TextBox ID="txtCiudad"  CssClass="form-control" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>

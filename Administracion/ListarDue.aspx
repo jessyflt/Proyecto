@@ -16,7 +16,7 @@
         </tr>
         <tr>
             <td>
-                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="codDue" DataSourceID="SqlDataDue" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" CssClass="table table-bordered bs-table" BackColor="White" BorderColor="#3366CC" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="codDue" DataSourceID="SqlDataDue" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                     <Columns>
                         <asp:BoundField DataField="codDue" HeaderText="Id" ReadOnly="True" SortExpression="codDue" />
                         <asp:BoundField DataField="CIdue" HeaderText="Cedula" SortExpression="CIdue" />

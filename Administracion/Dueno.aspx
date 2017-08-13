@@ -59,8 +59,11 @@
             </tr>
             
             <tr>
-                <td colspan="2" align="center">
+                <td  align="center">
                     <asp:Button ID="btnGuardar" CssClass ="btn btn-primary" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+                </td>
+                <td  align="center">
+                    <asp:Button ID="btnRegresar" CssClass ="btn btn-primary" runat="server" Text="Regresar" OnClick="btnRegresar_Click" />
                 </td>
             </tr>
             <tr>

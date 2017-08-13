@@ -44,7 +44,7 @@ public partial class Administracion_Dueno : System.Web.UI.Page
 
                 cmd.ExecuteNonQuery();
 
-                Response.Redirect("ListarDue.aspx");
+                Response.Redirect("Propiedad.aspx");
 
             }
         }
@@ -52,6 +52,12 @@ public partial class Administracion_Dueno : System.Web.UI.Page
         {
             throw ex;
         }
+
+    }
+
+    protected void btnRegresar_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Propiedad.aspx");
 
     }
 }
