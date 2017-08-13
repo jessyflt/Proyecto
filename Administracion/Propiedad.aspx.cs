@@ -11,4 +11,9 @@ public partial class Administracion_Propiedad : System.Web.UI.Page
     {
 
     }
+
+    protected void btnGuardar_Click(object sender, EventArgs e)
+    {
+
+    }
 }

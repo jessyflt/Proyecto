@@ -24,7 +24,7 @@
     <strong><em><span class="auto-style3">REGISTRO DE USUARIOS</span></em></strong>
     <br />
     <br />
-        <table class="table table-hover" width="50px" height="auto">
+        <table class="table table-hover" style="z-index: 100; left: 200px; width: 755px; position: absolute; top: 80px">
             <tr >
                 <td class="auto-style2" >Id</td>
                 <td >

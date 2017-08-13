@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
-    <table class="nav-justified">
+    <table class="table table-hover" style="z-index: 100; left: 200px; width: 755px; position: absolute; top: 80px">
         <tr>
             <td class="text-center" colspan="2">CASAS</td>
         </tr>
