@@ -20,7 +20,7 @@
                 <asp:Label ID="Label2" runat="server" Text="Fecha:"></asp:Label>
             </td>
             <td>
-                <asp:Calendar ID="Calendar1"  runat="server"></asp:Calendar>
+                <asp:Calendar ID="calendarP"  runat="server"></asp:Calendar>
             </td>
         </tr>
         <tr>
@@ -28,7 +28,10 @@
                 <asp:Label ID="Label3" runat="server" Text="Estado:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtEstado" CssClass="form-control" runat="server" ></asp:TextBox>
+                    <asp:DropDownList ID="listEstado"  CssClass="form-control" runat="server" >
+                        <asp:ListItem Value="Vendido">Vendido</asp:ListItem>
+                        <asp:ListItem Value="En venta">En venta</asp:ListItem>
+                    </asp:DropDownList>
             </td>
         </tr>
          <tr>
