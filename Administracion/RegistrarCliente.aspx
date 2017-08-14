@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
-    <p>
-    Registro de Comprador<br />
-</p>
+    <h1> <center>REGISTRO DE CLIENTES</center></h1>
+    <br />
+<br />   
 <p>
 &nbsp;&nbsp;&nbsp; Código:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="txtCod" runat="server"></asp:TextBox>

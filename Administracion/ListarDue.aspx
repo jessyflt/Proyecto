@@ -3,9 +3,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
+     <br />
+    <br />
+    <h1 > <center>LISTA DE PROPIETARIOS</center></h1>
+    <br />
+     <br />
+    <br />
+    <br />
     <table class="nav-justified">
      <tr>
-            <td><asp:Label ID="Label1" runat="server" Text="DUEÑOS"></asp:Label></td>
             <td>&nbsp;</td>
             
         </tr>

@@ -3,28 +3,25 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
-    .auto-style1 {
-        width: 1170px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
     .auto-style2 {
-        text-align: center;
-        width: 666px;
-    }
+            text-align: center;
+            width: 214px;
+        }
     .auto-style3 {
         font-size: large;
     }
 </style>
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
-    <strong><em><span class="auto-style3">REGISTRO DE USUARIOS</span></em></strong>
     <br />
     <br />
-        <table class="table table-hover" style="z-index: 100; left: 200px; width: 755px; position: absolute; top: 80px">
+    <h1 > <center>REGISTRO DE USUARIOS</center></h1>
+    <p>
+    <br />
+     <br />
+    <br />
+    <br />
+        <table class="table table-hover" style="z-index: 100; left: 200px; width: 56%; position: absolute; top: 250px; right: 181px;">
             <tr >
                 <td class="auto-style2" >Id</td>
                 <td >

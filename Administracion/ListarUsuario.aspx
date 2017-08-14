@@ -3,9 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
+
     <table class="nav-justified">
         <tr>
-            <td><asp:Label ID="Label1" runat="server" Text="USUARIOS"></asp:Label></td>
+            <h1><center>USUARIOS</center></h1>
             <td>&nbsp;</td>
             
         </tr>

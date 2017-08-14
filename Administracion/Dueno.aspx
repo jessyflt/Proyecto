@@ -11,9 +11,14 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
-    <strong><em><span class="auto-style3">REGISTRO DE DUEÑO</span></em></strong>
     <br />
-        <table class="table table-hover" style="z-index: 100; left: 200px; width: 755px; position: absolute; top: 120px" >
+    <br />
+    <h1 > <center>PROPIETARIOS</center></h1>
+    <br />
+     <br />
+    <br />
+    <br />
+    <table class="table table-hover" style="z-index: 100; left: 200px; width: 54%; position: absolute; top: 250px; right: 203px;">
             <tr >
                 <td class="auto-style1" >Codigo</td>
                 <td class="auto-style2" >
