@@ -19,7 +19,6 @@ public partial class Administracion_RegistrarCliente : System.Web.UI.Page
     {
         try
         {
-
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["InmobiliariaConnectionString"].ToString()))
             {
                 conn.Open();
@@ -33,13 +32,11 @@ public partial class Administracion_RegistrarCliente : System.Web.UI.Page
                 cmd.Parameters.AddWithValue("@nombreCompr", txtNomCom.Text);
                 cmd.Parameters.AddWithValue("@apellidoCompr", txtApelCom.Text);
                 cmd.Parameters.AddWithValue("@tlfCompr", txtTelfCom.Text);
-                cmd.Parameters.AddWithValue("@DireccionComp", txtDirCom.Text);
-                cmd.Parameters.AddWithValue("@CiudadComp", txtCiuCom.Text);
-
+                cmd.Parameters.AddWithValue("@DireccionCompr", txtDirCom.Text);
+                cmd.Parameters.AddWithValue("@CiudadCompr", txtCiuCom.Text);
                 cmd.ExecuteNonQuery();
                 cmd.Connection.Close();
             }
-
         }
         catch (Exception ex)
         {
