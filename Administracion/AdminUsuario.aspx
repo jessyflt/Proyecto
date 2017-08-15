@@ -7,10 +7,7 @@
             text-align: center;
             width: 214px;
         }
-    .auto-style3 {
-        font-size: large;
-    }
-</style>
+    </style>
     </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
     <br />
@@ -29,7 +26,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">Cédula</td>
+                <td class="auto-style2">Cedula</td>
                 <td>
                     <asp:TextBox ID="txtCedula" CssClass="form-control" runat="server"></asp:TextBox>
                 </td>

@@ -28,8 +28,7 @@
     <br />
     <br />
     <h1 > <center>TERRENOS</center></h1>
-    <p>
-    <br />
+   <br />
      <br />
     <br />
     <br />

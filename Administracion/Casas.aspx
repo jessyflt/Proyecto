@@ -3,16 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="phbody" Runat="Server">
-<br />
+    <br />
     <br />
     <h1 > <center>CASAS</center></h1>
-    <p>
     <br />
      <br />
     <br />
     <br />
     <table class="table table-hover" style="z-index: 100; left: 200px; width: 54%; position: absolute; top: 250px; right: 203px;">
-        </tr>
         <tr>
             <td class="text-right">
                 <asp:Label ID="Label1" runat="server" Text="Codigo:"></asp:Label>

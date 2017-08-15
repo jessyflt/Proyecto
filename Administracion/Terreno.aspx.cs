@@ -75,7 +75,7 @@ public partial class Administracion_Terreno : System.Web.UI.Page
 
                         cmd.ExecuteNonQuery();
 
-                        Response.Redirect("Default.aspx");
+                        Response.Redirect("Home.aspx");
 
                     }
                 }

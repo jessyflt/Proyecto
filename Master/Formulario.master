@@ -45,16 +45,22 @@
   </li>
     <li><a href="#">Propiedades</a>
             <ul>
-              <li><a href="../Administracion/Casas.aspx">Casas</a></li>
-              <li><a href="../Administracion/Departamento.aspx">Departamentos</a></li>
-              <li><a href="../Administracion/Terreno.aspx">Terreno</a></li>
+              <li><a href="../Administracion/Propiedad.aspx">Registrar Propiedad</a></li>
+              
+                </ul>
+          </li>
+     <li><a href="#">Usuarios</a>
+            <ul>
+              <li><a href="../Administracion/AdminUsuario.aspx">Registrar Usuario</a></li>
+              <li><a href="../Administracion/ListarUsuario.aspx">Listar usuario</a></li>
+              
                 </ul>
           </li>
           <li><a href="#">Ventas</a>
               <ul>
               <li><a href="../Administracion/Dueno.aspx">Propietarios</a></li>
               <li><a href="../Administracion/ListarDue.aspx">Lista de Propietarios</a></li>
-              <li><a href="../Administracion/Propiedad.aspx">Propiedades</a></li>
+              
                 </ul>
                </li>
         

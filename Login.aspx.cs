@@ -64,7 +64,7 @@ public partial class Login : System.Web.UI.Page
         int tipo = Convert.ToInt32(Session["idPerfil"].ToString());
         if (tipo == 1)
         {
-            Response.Redirect("./Administracion/Default.aspx");
+            Response.Redirect("./Administracion/Home.aspx");
         }
         else
         {
