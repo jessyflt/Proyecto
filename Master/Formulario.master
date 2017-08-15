@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../css/estilo/main.css" rel="stylesheet" />
 </head>
-<body background="../Imagenes/fondo1.jpg">
+<body background="../Imagenes/fondo1.jpg" >
     <script src="http://code.jquery.com/jquery-latest.js"></script>
    <script src="../css/bootstrap.min.js"></script>
     <form id="form1" runat="server">
