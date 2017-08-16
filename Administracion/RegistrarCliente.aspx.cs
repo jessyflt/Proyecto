@@ -19,7 +19,7 @@ public partial class Administracion_RegistrarCliente : System.Web.UI.Page
     {
         try
         {
-            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["InmobiliariaConnectionString"].ToString()))
+            using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ToString()))
             {
                 conn.Open();
                 string query = @"insert into COMPRADOR(codCompr, ciCompr, nombreCompr,apellidoCompr,tlfCompr,DireccionCompr,CiudadCompr) 

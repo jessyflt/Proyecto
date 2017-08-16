@@ -14,6 +14,7 @@
     <script src="../css/js/bootstrap.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="../css/estilo/main.css" rel="stylesheet" />
+    
 </head>
 <body background="../Imagenes/fondo1.jpg" >
     <script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -36,7 +37,7 @@
              <header role ="banner" >
 <nav id="primary_nav_wrap">
 <ul>
-  <li ><a href="../Administracion/AdminUsuario.aspx">Registro</a></li>
+  <li ><a href="../Administracion/Home.aspx">Registro</a></li>
   <li><a href="#">Cliente</a>
     <ul>
       <li><a href="../Administracion/RegistrarCliente.aspx">Registro Clientes</a></li>
@@ -63,6 +64,7 @@
               
                 </ul>
                </li>
+     <li ><a href="../Administracion/Prueba.aspx">Catalogo</a></li>
         
      </ul>
  </nav>

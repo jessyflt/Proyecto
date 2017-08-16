@@ -37,7 +37,7 @@
 <p>
     &nbsp;</p>
 <p>
-    <asp:Button ID="btnGuardar" runat="server" Height="30px" OnClick="btnGuardar_Click" Text="Button" Width="98px" />
+    <asp:Button ID="btnGuardar" runat="server" Height="30px" OnClick="btnGuardar_Click" Text="Guardar" Width="98px" />
 </p>
 <p>
     &nbsp;</p>

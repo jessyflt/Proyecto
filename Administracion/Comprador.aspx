@@ -27,7 +27,7 @@
     <SortedDescendingCellStyle BackColor="#D8D8F0" />
     <SortedDescendingHeaderStyle BackColor="#3E3277" />
 </asp:GridView>
-<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:InmobiliariaConnectionString %>" SelectCommand="SELECT * FROM [COMPRADOR]"></asp:SqlDataSource>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [COMPRADOR]"></asp:SqlDataSource>
 <br />
 <br />
 <br />
