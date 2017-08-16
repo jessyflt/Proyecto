@@ -13,7 +13,7 @@
          <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
          <ItemTemplate>
              <div class="Contenido">
-                <img alt="imagen1" src="<%# DataBinder.Eval(Container.DataItem,"fotoTerreno")%>"/>
+                 <img src="<%# DataBinder.Eval(Container.DataItem,"fotoTerreno")%> "/>
                  <div class="Codigo"><strong><%# DataBinder.Eval(Container.DataItem,"codPropiedad")%><strong></div>
                  <div class="Propiedad"><%# DataBinder.Eval(Container.DataItem,"Propiedad")%></div>
                  <div class="Descripcion"><strong><%# DataBinder.Eval(Container.DataItem,"Descripcion")%><strong></div>
