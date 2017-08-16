@@ -10,7 +10,7 @@
          <Columns>
              <asp:CommandField ShowSelectButton="True" />
              <asp:BoundField DataField="codPropiedad" HeaderText="codPropiedad" ReadOnly="True" SortExpression="codPropiedad" />
-             <asp:ImageField DataImageUrlField="fotoCasa" HeaderText="Imagen">
+             <asp:ImageField DataImageUrlField='<%# "data:image/jpg;base64," + Convert.ToBase64String((byte[])Eval("Photo"))  %>' HeaderText="Imagen">
              </asp:ImageField>
          </Columns>
      </asp:GridView>
