@@ -131,3 +131,16 @@ input::-webkit-input-placeholder {
         #primary_nav_wrap ul li:hover > ul {
             display: block
         }
+
+.Contenido {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+
+    ItemTemplate.first {
+        border-right: 5px solid #4BB495;
+    }

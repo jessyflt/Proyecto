@@ -47,8 +47,7 @@
                 </asp:DropDownList>
                 <br />
                 <asp:Button ID="txtNDue" runat="server" Text="Agregar Dueño" CssClass ="btn btn-primary" OnClick="txtNDue_Click" />
-                <asp:SqlDataSource ID="SqlConDue" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [codDue], CONCAT([nombreDue], ' ' ,[apellidoDue]) as Nombre
-FROM [Inmobiliaria].[dbo].[DUEÑO]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlConDue" runat="server" ConnectionString="<%$ ConnectionStrings:InmobiliariaConnectionString %>" SelectCommand="SELECT codDue, nombreDue + ' ' + apellidoDue AS Nombre FROM DUEÑO"></asp:SqlDataSource>
             </td>
         </tr>
         <tr>
